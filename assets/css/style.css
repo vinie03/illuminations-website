@@ -516,12 +516,12 @@ h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #cda45e;
+  border: 2px solid #8e50d9;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #cda45e;
+  background: #8e50d9;
   color: #fff;
 }
 
@@ -532,7 +532,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#8e50d9 50%, #cfb0f5 52%);
   border-radius: 50%;
   display: block;
   position: relative;
