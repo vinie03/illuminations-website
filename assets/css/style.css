@@ -1345,6 +1345,10 @@ section {
   transform: scale(1.1);
 }
 
+.gallery .gallery-wrap{
+  max-width: 100%;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
@@ -1583,11 +1587,9 @@ section {
 # Join Us
 --------------------------------------------------------------*/
 .join-us {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-  ),
-  url("../illuminations-img/watersleeves-1.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url("../illuminations-img/watersleeves-1.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
