@@ -200,8 +200,9 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 30vh;
 }
+
 
 /*--------------------------------------------------------------
 # Book a table button Menu
