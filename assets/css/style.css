@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #c099f0;
   text-decoration: none;
 }
 
@@ -134,7 +134,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #d9ba85;
+  color: #c099f0;
 }
 
 #topbar .contact-info i span {
@@ -277,7 +277,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9ba85;
+  color: #c099f0;
 }
 
 .navbar .dropdown ul {
@@ -1583,20 +1583,14 @@ section {
 # Join Us
 --------------------------------------------------------------*/
 .join-us {
-  background: url("../illuminations-img/watersleeves-1.jpg") center center;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("../illuminations-img/watersleeves-1.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
-}
-
-.join-us:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 .join-us .info {
@@ -1625,9 +1619,9 @@ section {
 }
 
 .join-us .info p {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 0px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17px;
   color: #bab3a6;
 }
 
