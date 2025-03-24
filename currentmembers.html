@@ -1,1 +1,32 @@
-checkPassword()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Page</title>
+    <script>
+        function checkPassword() {
+            var password = prompt("Enter the password:");
+            var correctPassword = "zhoushen"; // Change this to your desired password
+
+            if (password !== correctPassword) {
+                alert("Incorrect password! Redirecting...");
+                window.location = "https://vnie03.github.io/illuminations-website"; // Redirect to another page
+            } else {
+                document.getElementById("protected-content").style.display = "block";
+                document.getElementById("password-prompt").style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <div id="password-prompt">
+        <p>Please enter the password to view this page.</p>
+    </div>
+    
+    <div id="protected-content" style="display: none;">
+        <h1>Welcome to the Protected Page</h1>
+        <p>This content is only visible after entering the correct password.</p>
+    </div>
+</body>
+</html>
